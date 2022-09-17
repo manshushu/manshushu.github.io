@@ -1,18 +1,26 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Man&#39;s blog</title>
-        <link>https://example.com/</link>
+        <link>www.manshushu.top/</link>
         <description>By hugo</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>m081550370@163.com (MAN)</managingEditor>
             <webMaster>m081550370@163.com (MAN)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 15 Sep 2022 21:57:40 &#43;0800</lastBuildDate>
-            <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="www.manshushu.top/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>第一条blog</title>
-    <link>https://example.com/first/</link>
+    <link>www.manshushu.top/first/</link>
     <pubDate>Thu, 15 Sep 2022 21:57:40 &#43;0800</pubDate>
     <author>MAN</author>
-    <guid>https://example.com/first/</guid>
+    <guid>www.manshushu.top/first/</guid>
     <description><![CDATA[写在前面的话 作为一个计算机专业的学生，拥有一个个人博客是必不可少的，通过博客记录自身的学习与成长是一件很有成就的事，同时也能够很好地训练自己]]></description>
+</item>
+<item>
+    <title>软件工程笔记1</title>
+    <link>www.manshushu.top/new/</link>
+    <pubDate>Thu, 15 Sep 2022 21:57:40 &#43;0800</pubDate>
+    <author>MAN</author>
+    <guid>www.manshushu.top/new/</guid>
+    <description><![CDATA[软件工程笔记 软件工程无处不在 软件工程分为软件和工程两个部分。 软件是软件工程研究的对象，也是软件工程的产品形态与客观存在。工程是将理论和知识应]]></description>
 </item>
 </channel>
 </rss>
