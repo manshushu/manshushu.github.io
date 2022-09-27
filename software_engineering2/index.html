@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>软件工程笔记2 - Man&#39;s blog</title><meta name="Description" content="软件工程笔记2"><meta property="og:title" content="软件工程笔记2" />
+<meta property="og:description" content="软件工程笔记2" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.manshushu.top/software_engineering2/" /><meta property="og:image" content="http://www.manshushu.top/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-09-27T15:02:10+08:00" />
+<meta property="article:modified_time" content="2022-09-27T15:02:10+08:00" /><meta property="og:site_name" content="Man&#39;s blog" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://www.manshushu.top/logo.png"/>
+
+<meta name="twitter:title" content="软件工程笔记2"/>
+<meta name="twitter:description" content="软件工程笔记2"/>
+<meta name="application-name" content="LoveIt">
+<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://www.manshushu.top/software_engineering2/" /><link rel="prev" href="http://www.manshushu.top/custom_domain/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "软件工程笔记2",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/www.manshushu.top\/software_engineering2\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "http:\/\/www.manshushu.top\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "软件工程","wordcount":  2768 ,
+        "url": "http:\/\/www.manshushu.top\/software_engineering2\/","datePublished": "2022-09-27T15:02:10+08:00","dateModified": "2022-09-27T15:02:10+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "http:\/\/www.manshushu.top\/images\/avatar.png",
+                    "width":  512 ,
+                    "height":  512 
+                }},"author": {
+                "@type": "Person",
+                "name": "MAN"
+            },"description": "软件工程笔记2"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Man&#39;s blog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>MAN</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/categories/documentation/"> 文档 </a><a class="menu-item" href="/about/"> 关于 </a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/software_engineering2/" selected>简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Man&#39;s blog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>MAN</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/categories/documentation/" title="">文档</a><a class="menu-item" href="/about/" title="">关于</a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/software_engineering2/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">软件工程笔记2</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>MAN</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>课程学习</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-09-27">2022-09-27</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 2768 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 6 分钟&nbsp;<span id="/software_engineering2/" class="leancloud_visitors" data-flag-title="软件工程笔记2">
+                        <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
+                    </span>&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#软件需求的定义">软件需求的定义</a>
+      <ul>
+        <li><a href="#需求的内容">需求的内容</a></li>
+        <li><a href="#需求规约">需求规约</a>
+          <ul>
+            <li><a href="#单个需求项的质量">单个需求项的质量:</a></li>
+            <li><a href="#整个需求集合的质量">整个需求集合的质量:</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#获取软件需求的主要途径">获取软件需求的主要途径</a></li>
+    <li><a href="#软件需求文档的框架">软件需求文档的框架</a>
+      <ul>
+        <li><a href="#需求文档的组织形式">需求文档的组织形式</a>
+          <ul>
+            <li><a href="#文档需要有逻辑组织结构">文档需要有逻辑组织结构</a></li>
+            <li><a href="#典型的组织形式包括">典型的组织形式包括</a></li>
+          </ul>
+        </li>
+        <li><a href="#软件需求规格说明srs的风格"><em>软件需求规格说明SRS的风格</em></a>
+          <ul>
+            <li><a href="#描述性的自然语言文本">描述性的自然语言文本</a></li>
+            <li><a href="#从用例模型产生">从用例模型产生</a></li>
+            <li><a href="#从需求数据库中生成">从需求数据库中生成</a></li>
+            <li><a href="#从混合模型中生成">从混合模型中生成</a></li>
+          </ul>
+        </li>
+        <li><a href="#选择合适的需求规格说明方式">选择合适的需求规格说明方式</a></li>
+        <li><a href="#生成不同风格srs的方法">生成不同风格SRS的方法</a></li>
+        <li><a href="#用户手册大纲">用户手册大纲</a>
+          <ul>
+            <li><a href="#介绍">介绍</a></li>
+            <li><a href="#开始">开始</a></li>
+            <li><a href="#操作模式">操作模式:</a></li>
+            <li><a href="#高级特性">高级特性</a></li>
+            <li><a href="#命令语法和系统选项">命令语法和系统选项</a></li>
+          </ul>
+        </li>
+        <li><a href="#开发过程中各人员的分工">开发过程中各人员的分工</a></li>
+        <li><a href="#高质量需求规格说明">高质量需求规格说明</a>
+          <ul>
+            <li><a href="#一个高质量的需求规格说明">一个高质量的需求规格说明</a></li>
+          </ul>
+        </li>
+        <li><a href="#需求规格说明srs模板">需求规格说明SRS模板</a></li>
+        <li><a href="#ieee-830-srs模板大纲">IEEE-830 SRS模板大纲</a></li>
+        <li><a href="#srs模板的优缺点">SRS模板的优缺点</a>
+          <ul>
+            <li><a href="#优点">优点</a></li>
+            <li><a href="#缺点">缺点</a></li>
+          </ul>
+        </li>
+        <li><a href="#总结">总结</a></li>
+      </ul>
+    </li>
+    <li><a href="#需求工程师的职责">需求工程师的职责</a>
+      <ul>
+        <li><a href="#当代的需求工程师">当代的需求工程师</a></li>
+        <li><a href="#优秀需求工程师的目标">优秀需求工程师的目标</a></li>
+        <li><a href="#需求分析师七宗罪">需求分析师七宗罪</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#软件过程模型">软件过程模型</a>
+      <ul>
+        <li><a href="#四种模型瀑布模型原型化模型迭代式开发模型可转换模型">四种模型：瀑布模型、原型化模型、迭代式开发模型、可转换模型</a>
+          <ul>
+            <li><a href="#瀑布模型">瀑布模型</a></li>
+            <li><a href="#原型化模型">原型化模型</a></li>
+            <li><a href="#迭代式开发模型">迭代式开发模型</a>
+              <ul>
+                <li><a href="#特点">特点：</a></li>
+              </ul>
+            </li>
+            <li><a href="#增量模型在每一个新的发布中逐步增加功能直到构造全部功能">增量模型：在每一个新的发布中逐步增加功能直到构造全部功能。</a></li>
+            <li><a href="#迭代模型一开始提交一个完整系统在后续发布中补充完善各子系统功能">迭代模型：一开始提交一个完整系统，在后续发布中补充完善各子系统功能。</a></li>
+            <li><a href="#可转换模型">可转换模型</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="软件的需求管理">软件的需求管理</h1>
+<h2 id="软件需求的定义">软件需求的定义</h2>
+<p><strong>需求</strong>是对外可见的系统特征</p>
+<p>需求管理有三项任务：</p>
+<ul>
+<li>学习 ——需求获取</li>
+<li>剪枝 ——需求优选</li>
+<li>文档化 ——撰写需求规格说明书</li>
+</ul>
+<h3 id="需求的内容">需求的内容</h3>
+<ul>
+<li>需求是系统为满足客户期望的目标而完成的行为</li>
+<li>需求要体现出对问题领域的清晰理解</li>
+<li>给出系统的使用场景和上下文</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/software_engineering2/1.png"
+        data-srcset="/software_engineering2/1.png, /software_engineering2/1.png 1.5x, /software_engineering2/1.png 2x"
+        data-sizes="auto"
+        alt="/software_engineering2/1.png"
+        title="/software_engineering2/1.png" width="382" height="291" /></p>
+<h3 id="需求规约">需求规约</h3>
+<h4 id="单个需求项的质量">单个需求项的质量:</h4>
+<ul>
+<li>准确（Concise）</li>
+<li>正确（Correct）</li>
+<li>明确（Non-ambiguous）</li>
+<li>可行（Feasible）</li>
+<li>可证（Verifiable）</li>
+</ul>
+<h4 id="整个需求集合的质量">整个需求集合的质量:</h4>
+<ul>
+<li>现实（Realistic）</li>
+<li>精确（Concise）</li>
+<li>全面（Complete）</li>
+<li>一致（Consistent）</li>
+</ul>
+<h2 id="获取软件需求的主要途径">获取软件需求的主要途径</h2>
+<p>需求分析师与客户沟通，制定需求文档</p>
+<h2 id="软件需求文档的框架">软件需求文档的框架</h2>
+<h3 id="需求文档的组织形式">需求文档的组织形式</h3>
+<h4 id="文档需要有逻辑组织结构">文档需要有逻辑组织结构</h4>
+<ul>
+<li>例如：参照IEEE的模板</li>
+</ul>
+<h4 id="典型的组织形式包括">典型的组织形式包括</h4>
+<ul>
+<li>按系统能够响应的各种外环境情况来组织</li>
+<li>按系统特征来组织</li>
+<li>按系统的响应方式来组织</li>
+<li>按所管理的外部数据对象组织</li>
+<li>按用户类型来组织</li>
+<li>按软件的工作模式来组织</li>
+<li>按子系统的划分来组织</li>
+</ul>
+<h3 id="软件需求规格说明srs的风格"><em>软件需求规格说明SRS的风格</em></h3>
+<h4 id="描述性的自然语言文本">描述性的自然语言文本</h4>
+<p>• 用户故事</p>
+<h4 id="从用例模型产生">从用例模型产生</h4>
+<p>• 用例模型与需求转化可看成可逆的过程
+• 如果需求模型以用例的形式表示，我们
+可以逆向生成需求的完整集合</p>
+<h4 id="从需求数据库中生成">从需求数据库中生成</h4>
+<p>• 商业需求数据库有内置的功能来
+生成经过筛选的需求规格说明
+• 从产品线需求规格数据库中生成
+特定产品的需求规格说明</p>
+<h4 id="从混合模型中生成">从混合模型中生成</h4>
+<p>• 特征模型和用例模型</p>
+<h3 id="选择合适的需求规格说明方式">选择合适的需求规格说明方式</h3>
+<ul>
+<li>小型项目，1名程序猿，2个月的开发周期
+程序猿直接和用户对话，写了两页纸的备忘录</li>
+<li>大型项目，50 名程序猿，2年的开发周期
+专门的团队进行需求建模与分析，撰写了500页的需求规格说明</li>
+</ul>
+<h3 id="生成不同风格srs的方法">生成不同风格SRS的方法</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/software_engineering2/2.png"
+        data-srcset="/software_engineering2/2.png, /software_engineering2/2.png 1.5x, /software_engineering2/2.png 2x"
+        data-sizes="auto"
+        alt="/software_engineering2/2.png"
+        title="/software_engineering2/2.png" width="1024" height="462" /></p>
+<h3 id="用户手册大纲">用户手册大纲</h3>
+<h4 id="介绍">介绍</h4>
+<p>• 产品总览及基本原理
+• 术语和基本特征
+• 展示格式与报表格式的总结
+• 手册的大纲</p>
+<h4 id="开始">开始</h4>
+<p>• 开始指令
+• 帮助模式
+• 样例运行</p>
+<h4 id="操作模式">操作模式:</h4>
+<p>• 命令行/对话框/报告</p>
+<h4 id="高级特性">高级特性</h4>
+<h4 id="命令语法和系统选项">命令语法和系统选项</h4>
+<h3 id="开发过程中各人员的分工">开发过程中各人员的分工</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/software_engineering2/3.png"
+        data-srcset="/software_engineering2/3.png, /software_engineering2/3.png 1.5x, /software_engineering2/3.png 2x"
+        data-sizes="auto"
+        alt="/software_engineering2/3.png"
+        title="/software_engineering2/3.png" width="1032" height="441" /></p>
+<h3 id="高质量需求规格说明">高质量需求规格说明</h3>
+<h4 id="一个高质量的需求规格说明">一个高质量的需求规格说明</h4>
+<ul>
+<li>是所有需求的集合</li>
+<li>描述产品要提供的所有-能</li>
+<li>是软件系统解决方案的-业合同的基础</li>
+<li>是测试计划的基础</li>
+<li>定义产品需求的度量标准</li>
+<li>是产品需求跟踪的先决-件</li>
+<li>影响开发产品的项目计划</li>
+</ul>
+<h3 id="需求规格说明srs模板">需求规格说明SRS模板</h3>
+<ul>
+<li>SRS需要根据预先定义-标准章节模式来组织，即-据模板来撰写</li>
+<li>SRS的模板使得撰写统-的SRS变得简单</li>
+<li>对于QA人员来说定义SR-指标变得简单</li>
+<li>模板也适用于业务需求-系统需求</li>
+<li>模板可以被用于半自动地从需求数据库或者用例模型生成SRS</li>
+</ul>
+<h3 id="ieee-830-srs模板大纲">IEEE-830 SRS模板大纲</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/software_engineering2/4.png"
+        data-srcset="/software_engineering2/4.png, /software_engineering2/4.png 1.5x, /software_engineering2/4.png 2x"
+        data-sizes="auto"
+        alt="/software_engineering2/4.png"
+        title="/software_engineering2/4.png" width="1035" height="460" /></p>
+<h3 id="srs模板的优缺点">SRS模板的优缺点</h3>
+<h4 id="优点">优点</h4>
+<ul>
+<li>模板提高效率</li>
+<li>在有模板的情况下，面对一个完整的大纲，不容易遗漏重要的信息</li>
+</ul>
+<h4 id="缺点">缺点</h4>
+<ul>
+<li>并非对于所有的系统，模板的章节设计都是类似的</li>
+<li>如果仅仅为了满足标准，而填写模板的所有章节，在不相关的章节，会加入一些没有意义的内容</li>
+<li>读者很难将这些无意义的文字和真正
+的需求分开</li>
+</ul>
+<h3 id="总结">总结</h3>
+<ul>
+<li>尽快开始写需求</li>
+<li>确定哪些属性将被用于分类和细化需求</li>
+<li>产生一个初始版本来刺激反馈</li>
+<li>询问用户往往比咨询专家更有用</li>
+<li>撰写需求时需要遵循的法则：
+<ul>
+<li>使用简单、直接的语言</li>
+<li>撰写可测试的需求</li>
+<li>使用定义好的并达成共识的术语</li>
+<li>一次只写一项需求</li>
+</ul>
+</li>
+</ul>
+<h2 id="需求工程师的职责">需求工程师的职责</h2>
+<h3 id="当代的需求工程师">当代的需求工程师</h3>
+<ul>
+<li>分析问题和解决问题能力</li>
+<li>人际沟通及交流能力</li>
+<li>软件工程知识和技能</li>
+<li>应用领域有关知识</li>
+<li>书面语言组织和表达能力</li>
+</ul>
+<h3 id="优秀需求工程师的目标">优秀需求工程师的目标</h3>
+<ul>
+<li>识别错误假设</li>
+<li>确保一致性</li>
+<li>提升依从性</li>
+<li>减少彼此误解</li>
+<li>提高支持速度和效率</li>
+<li>提升客户满意度</li>
+<li>撰写优质需求文档</li>
+</ul>
+<h3 id="需求分析师七宗罪">需求分析师七宗罪</h3>
+<ul>
+<li>干扰</li>
+<li>沉默</li>
+<li>过度规约</li>
+<li>矛盾</li>
+<li>含糊</li>
+<li>向前引用</li>
+<li>不切实际与一厢情愿</li>
+</ul>
+<h1 id="软件开发过程">软件开发过程</h1>
+<h2 id="软件过程模型">软件过程模型</h2>
+<p>软件过程模型是对软件过程的抽象描述，是定义任务之间关系和规程和方法</p>
+<h3 id="四种模型瀑布模型原型化模型迭代式开发模型可转换模型">四种模型：瀑布模型、原型化模型、迭代式开发模型、可转换模型</h3>
+<h4 id="瀑布模型">瀑布模型</h4>
+<p>将基本的开发活动看成是一系列界限分明的独立阶段，这是 一种计划驱动的软件过程，有利于规范软件开发活动。以预测性为原则 、以文档驱动开发过程 、以过程控制为核心。
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/software_engineering2/5.png"
+        data-srcset="/software_engineering2/5.png, /software_engineering2/5.png 1.5x, /software_engineering2/5.png 2x"
+        data-sizes="auto"
+        alt="/software_engineering2/5.png"
+        title="/software_engineering2/5.png" width="1051" height="553" /></p>
+<h4 id="原型化模型">原型化模型</h4>
+<p>原型是一个部分开发的产品，用于加强对系统的理解，有助于明确需求和选择可行的设计策略。
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/software_engineering2/6.png"
+        data-srcset="/software_engineering2/6.png, /software_engineering2/6.png 1.5x, /software_engineering2/6.png 2x"
+        data-sizes="auto"
+        alt="/software_engineering2/6.png"
+        title="/software_engineering2/6.png" width="1054" height="541" /></p>
+<h4 id="迭代式开发模型">迭代式开发模型</h4>
+<p>将描述、开发和验证等不同活动交织在一起，在开发过程中 建立一系列版本，将系统一部分一部分地逐步交付。</p>
+<h5 id="特点">特点：</h5>
+<ul>
+<li>
+<p>更快速地发布产品</p>
+</li>
+<li>
+<p>追求产品创新</p>
+</li>
+<li>
+<p>需求不确定性高</p>
+</li>
+<li>
+<p>需要快速响应用户的变化</p>
+</li>
+<li>
+<p>关注用户行为</p>
+</li>
+</ul>
+<h4 id="增量模型在每一个新的发布中逐步增加功能直到构造全部功能">增量模型：在每一个新的发布中逐步增加功能直到构造全部功能。</h4>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/software_engineering2/7.png"
+        data-srcset="/software_engineering2/7.png, /software_engineering2/7.png 1.5x, /software_engineering2/7.png 2x"
+        data-sizes="auto"
+        alt="/software_engineering2/7.png"
+        title="/software_engineering2/7.png" width="882" height="229" /></p>
+<h4 id="迭代模型一开始提交一个完整系统在后续发布中补充完善各子系统功能">迭代模型：一开始提交一个完整系统，在后续发布中补充完善各子系统功能。</h4>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/software_engineering2/8.png"
+        data-srcset="/software_engineering2/8.png, /software_engineering2/8.png 1.5x, /software_engineering2/8.png 2x"
+        data-sizes="auto"
+        alt="/software_engineering2/8.png"
+        title="/software_engineering2/8.png" width="843" height="208" /></p>
+<h4 id="可转换模型">可转换模型</h4>
+<ul>
+<li>
+<p>利用自动化的手段，通过一系列转换将需求规格说明转化为 一个可交付使用的系统。</p>
+</li>
+<li>
+<p>由于数学方法具有严密性和准确性，形式化方法所交付 的系统具有较少的缺陷和较高的安全性。 • 特别适合于那些对安全性、可靠性和保密性要求极高的 软件系统，这些系统需要在投入运行前进行验证。</p>
+</li>
+</ul>
+<blockquote>
+<p>原型化模型和瀑布模型的区别：</p>
+</blockquote>
+<ul>
+<li>原型化模型第一步就是创建一个快速原型，能够满足项目干系人与未来的用户可以与原型进行交互，再通过与相关干系人进行充分的讨论和分析，最终弄清楚当前系统的需求，进行了充分的了解之后，在原型的基础上开发出用户满意的产品。</li>
+<li>而对于瀑布型，有点太过于理想化，现实中还是先制作出一个模型让客户看见更能有助于开发软件。</li>
+</ul>
+<blockquote>
+<p>迭代模型，摒弃了传统的需求分析，设计，编码，测试的流程，而是将整个生命周期变成若干个冲刺（Sprint）阶段，而每一个阶段都是由以上若干或者全部传统的流程组成，在每一个阶段中，都会包含下面四个阶段：初始阶段，细化阶段，构建阶段，交付阶段。在初始阶段中，确认本次冲刺的范围，边界，系统选择的架构，计划，以及所需要的资源等信息。在细化阶段中，对问题进行建域，创建开发案例，创建模板以及准备工具等。在构建阶段的主要任务就是完成构建的开发并且进行测试，将完成的构建集成为产品，并且测试所有的功能（CI）。在交付阶段，主要是完成本次冲刺，将软件产品交付给相关的干系人。</p>
+</blockquote>
+<blockquote>
+<p>可转换模型与他们有很大区别，它通过将无法直接测试的需求转换成可以直接测试的需求，保证了模型的安全、可靠、严密。</p>
+</blockquote>
+<h1 id="个人总结">个人总结</h1>
+<p>这次课程的需求文档撰写令我印象深刻。</p>
+<p>在现实的软件制作过程中，需求常常是不断变动的，甚至是推倒原有，重新制定的，可谓计划赶不上变化。作为软件开发人员，应当适应这种变化，就像课程里说的那样，不能将变化视为威胁，应当作为一种机遇，一种挑战。在这样一种不断变动的情况下，需求文档的撰写就变得格外的重要，负责和客户沟通，确定需求文档的需求分析师责任重大，他需要识别用户真正的需求，将其抽象，简化，再以文档的形式传达给开发的人员。作为沟通的桥梁，一个“翻译者”，他的水平决定了整个项目的下限！</p>
+<p>由此可见<strong>需求分析</strong>的重要性，在我看来一个软件的开发近半的时间应当放在需求分析，更改沟通交流上，毕竟当真正的文档确定，实现起来有了目标与细则，会十分迅速的！</p>
+<p>需求文档的撰写作为软件工程的“开头难”，是我们计算机专业学生所要格外重视的！</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2022-09-27</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/software_engineering2/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="http://www.manshushu.top/software_engineering2/" data-title="软件工程笔记2" data-hashtags="软件工程"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="http://www.manshushu.top/software_engineering2/" data-hashtag="软件工程"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="http://www.manshushu.top/software_engineering2/" data-title="软件工程笔记2"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="http://www.manshushu.top/software_engineering2/" data-title="软件工程笔记2"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://www.manshushu.top/software_engineering2/" data-title="软件工程笔记2" data-ralateuid="xxxx"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/">软件工程</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/custom_domain/" class="prev" rel="prev" title="关于Gitpage的自定义域名"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>关于Gitpage的自定义域名</a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.102.3">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">MAN</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.5.0/dist/Valine.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"valine":{"appId":"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI","appKey":"WBmoGyJtbqUswvfLh6L8iEBr","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@14.0.0/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-CN","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://leancloud.hugoloveit.com","visitor":true}},"lightgallery":true,"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
