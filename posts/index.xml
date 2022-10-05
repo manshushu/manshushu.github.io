@@ -4,7 +4,15 @@
         <link>http://www.manshushu.top/posts/</link>
         <description>所有文章 | Man&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>m081550370@163.com (MAN)</managingEditor>
-            <webMaster>m081550370@163.com (MAN)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 04 Oct 2022 10:13:40 &#43;0800</lastBuildDate><atom:link href="http://www.manshushu.top/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>m081550370@163.com (MAN)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 05 Oct 2022 10:10:40 &#43;0800</lastBuildDate><atom:link href="http://www.manshushu.top/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>30天教师资格证第6天</title>
+    <link>http://www.manshushu.top/teacher6/</link>
+    <pubDate>Wed, 05 Oct 2022 10:10:40 &#43;0800</pubDate>
+    <author>MAN</author>
+    <guid>http://www.manshushu.top/teacher6/</guid>
+    <description><![CDATA[中学生心理辅导 心理健康 概述 没有心理疾病，有积极发展的心理状态 动态 相对 健康标准 智力正常 情绪始终 意志健全 人格稳定协调 自我意识正确 人际关系和谐 社会]]></description>
+</item>
+<item>
     <title>30天教师资格证第5天</title>
     <link>http://www.manshushu.top/teacher5/</link>
     <pubDate>Tue, 04 Oct 2022 10:13:40 &#43;0800</pubDate>
@@ -75,14 +83,6 @@
     <author>MAN</author>
     <guid>http://www.manshushu.top/new/</guid>
     <description><![CDATA[其中重要的知识 路由器 操作系统叫ios nvram断电还有数据 路由器启动步骤 自检（power-on self test），引导装入程序 定位加载 ios（可以]]></description>
-</item>
-<item>
-    <title>第一条blog</title>
-    <link>http://www.manshushu.top/first/</link>
-    <pubDate>Tue, 13 Sep 2022 21:57:40 &#43;0800</pubDate>
-    <author>MAN</author>
-    <guid>http://www.manshushu.top/first/</guid>
-    <description><![CDATA[写在前面的话 作为一个计算机专业的学生，拥有一个个人博客是必不可少的，通过博客记录自身的学习与成长是一件很有成就的事，同时也能够很好地训练自己]]></description>
 </item>
 </channel>
 </rss>
