@@ -62,6 +62,7 @@
             <loc>http://www.manshushu.top/tags/installation/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.manshushu.top/tags/content/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.manshushu.top/tags/configuration/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.manshushu.top/software_engineering4/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.manshushu.top/categories/documentation/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
