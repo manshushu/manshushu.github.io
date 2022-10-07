@@ -47,6 +47,14 @@
     <description><![CDATA[中学课程 概述 课程概念 课程一词的由来&ndash;斯宾塞的《什么知识最有价值》 概念 广义&ndash;教学内容总和以及进程安排 狭义&ndash;]]></description>
 </item>
 <item>
+    <title>软件工程笔记3</title>
+    <link>http://www.manshushu.top/software_engineering3/</link>
+    <pubDate>Sat, 01 Oct 2022 15:02:10 &#43;0800</pubDate>
+    <author>MAN</author>
+    <guid>http://www.manshushu.top/software_engineering3/</guid>
+    <description><![CDATA[用例建模概念 什么是用例 定义系统的一系列行为 通过此可为参与者提供有价值且可观测的结果。 定义一个参与者要用到的系统功能 描述系统为实现参与者价值所]]></description>
+</item>
+<item>
     <title>30天教师资格证第一天</title>
     <link>http://www.manshushu.top/teacher1/</link>
     <pubDate>Fri, 30 Sep 2022 09:57:40 &#43;0800</pubDate>
@@ -77,14 +85,6 @@
     <author>MAN</author>
     <guid>http://www.manshushu.top/software_engineering1/</guid>
     <description><![CDATA[软件工程第一章 软件工程无处不在 软件工程分为软件和工程两个部分。软件是软件工程研究的对象，也是软件工程的产品形态与客观存在。 工程是将理论和知识]]></description>
-</item>
-<item>
-    <title>网络实践笔记1</title>
-    <link>http://www.manshushu.top/new/</link>
-    <pubDate>Thu, 15 Sep 2022 21:57:40 &#43;0800</pubDate>
-    <author>MAN</author>
-    <guid>http://www.manshushu.top/new/</guid>
-    <description><![CDATA[其中重要的知识 路由器 操作系统叫ios nvram断电还有数据 路由器启动步骤 自检（power-on self test），引导装入程序 定位加载 ios（可以]]></description>
 </item>
 </channel>
 </rss>
