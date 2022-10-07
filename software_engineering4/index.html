@@ -35,7 +35,7 @@
                             "url": "http:\/\/www.manshushu.top\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "posts","keywords": "软件工程","wordcount":  180 ,
+                        }],"genre": "posts","keywords": "软件工程","wordcount":  400 ,
         "url": "http:\/\/www.manshushu.top\/software_engineering4\/","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -120,7 +120,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">软件工程笔记4</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>MAN</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>课程学习</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="0001-01-01">0001-01-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 180 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="0001-01-01">0001-01-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 400 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -133,6 +133,13 @@
     <li><a href="#业务过程建模">业务过程建模</a></li>
     <li><a href="#数据流建模">数据流建模</a></li>
     <li><a href="#准则">准则</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#状态机图">状态机图</a></li>
+    <li><a href="#复杂的反应式对象">复杂的反应式对象:</a></li>
+    <li><a href="#协议和合法序列">协议和合法序列:</a></li>
+    <li><a href="#表示方法">表示方法:</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><h1 id="uml活动图">UML活动图</h1>
@@ -198,6 +205,61 @@
         data-sizes="auto"
         alt="/software_engineering4/5.png"
         title="/software_engineering4/5.png" width="708" height="207" /></p>
+<h2 id="状态机图">状态机图</h2>
+<ul>
+<li>
+<p>状态无关：一个对象对某事件的响应总相同</p>
+</li>
+<li>
+<p>状态无关对象：对于所有事件，对象的响应总是相同</p>
+</li>
+<li>
+<p>状态依赖对象：对事件的响应根据对象的状态或模式而不同</p>
+</li>
+<li>
+<p><strong>准则</strong>：考虑为具有复杂行为的状态依赖对象建立状态机图</p>
+</li>
+</ul>
+<p>应用于过程控制、设备控制、协议处理、通信等领域</p>
+<h2 id="复杂的反应式对象">复杂的反应式对象:</h2>
+<ol>
+<li>
+<p>软件控制的物理设备</p>
+</li>
+<li>
+<p>事务处理以及相关业务对象</p>
+</li>
+<li>
+<p>角色转换器</p>
+</li>
+</ol>
+<h2 id="协议和合法序列">协议和合法序列:</h2>
+<ol>
+<li>
+<p>通讯协议</p>
+</li>
+<li>
+<p>UI页面/窗口流或导航</p>
+</li>
+<li>
+<p>UI流控制器或会话</p>
+</li>
+<li>
+<p>用例操作系统</p>
+</li>
+<li>
+<p>单个UI窗口的事件处理</p>
+</li>
+</ol>
+<h2 id="表示方法">表示方法:</h2>
+<ol>
+<li>
+<p>转换动作和监护</p>
+</li>
+<li>
+<p>嵌套状态</p>
+</li>
+</ol>
 <h1 id="一点想法">一点想法</h1>
 <p>对于这个状态图，教程是真没看懂。。
 还是需要和同学讨论讨论</p>
