@@ -4,7 +4,15 @@
         <link>http://www.manshushu.top/posts/</link>
         <description>所有文章 | Man&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>m081550370@163.com (MAN)</managingEditor>
-            <webMaster>m081550370@163.com (MAN)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 05 Oct 2022 10:10:40 &#43;0800</lastBuildDate><atom:link href="http://www.manshushu.top/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>m081550370@163.com (MAN)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 19 Oct 2022 15:57:40 &#43;0800</lastBuildDate><atom:link href="http://www.manshushu.top/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>关于Netflix的一些事</title>
+    <link>http://www.manshushu.top/about_netflix/</link>
+    <pubDate>Wed, 19 Oct 2022 15:57:40 &#43;0800</pubDate>
+    <author>MAN</author>
+    <guid>http://www.manshushu.top/about_netflix/</guid>
+    <description><![CDATA[面临的问题 在安卓端，通过clash可以畅通无阻解锁所有剧 但是通过路由器上的clash只能实现自制剧的观看，但好的是没有提示使用代理云云 一些探]]></description>
+</item>
+<item>
     <title>30天教师资格证第6天</title>
     <link>http://www.manshushu.top/teacher6/</link>
     <pubDate>Wed, 05 Oct 2022 10:10:40 &#43;0800</pubDate>
@@ -75,14 +83,6 @@
     <author>MAN</author>
     <guid>http://www.manshushu.top/custom_domain/</guid>
     <description><![CDATA[关于我的博客技术栈 使用的是markdown写作，hugo进行静态页面生成，push到blog仓库进行博客源码管理，另有一个仓库负责最后的静态]]></description>
-</item>
-<item>
-    <title>软件工程笔记1</title>
-    <link>http://www.manshushu.top/software_engineering1/</link>
-    <pubDate>Wed, 21 Sep 2022 21:57:40 &#43;0800</pubDate>
-    <author>MAN</author>
-    <guid>http://www.manshushu.top/software_engineering1/</guid>
-    <description><![CDATA[软件工程第一章 软件工程无处不在 软件工程分为软件和工程两个部分。软件是软件工程研究的对象，也是软件工程的产品形态与客观存在。 工程是将理论和知识]]></description>
 </item>
 </channel>
 </rss>
