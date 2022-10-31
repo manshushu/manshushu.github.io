@@ -4,7 +4,15 @@
         <link>http://www.manshushu.top/posts/</link>
         <description>所有文章 | Man&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>m081550370@163.com (MAN)</managingEditor>
-            <webMaster>m081550370@163.com (MAN)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 19 Oct 2022 15:57:40 &#43;0800</lastBuildDate><atom:link href="http://www.manshushu.top/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>m081550370@163.com (MAN)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 31 Oct 2022 08:27:40 &#43;0800</lastBuildDate><atom:link href="http://www.manshushu.top/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>教资结束后的一些总结</title>
+    <link>http://www.manshushu.top/%E8%BF%91%E6%9C%9F%E6%80%BB%E7%BB%93/</link>
+    <pubDate>Mon, 31 Oct 2022 08:27:40 &#43;0800</pubDate>
+    <author>MAN</author>
+    <guid>http://www.manshushu.top/%E8%BF%91%E6%9C%9F%E6%80%BB%E7%BB%93/</guid>
+    <description><![CDATA[这些天我干了什么 这些天我一直在准备教师资格证笔试的复习，其中第二门下的功夫最大，复习了好几遍，最后又对重点进行了重复。 对于第一门确实只花了一]]></description>
+</item>
+<item>
     <title>关于Netflix的一些事</title>
     <link>http://www.manshushu.top/about_netflix/</link>
     <pubDate>Wed, 19 Oct 2022 15:57:40 &#43;0800</pubDate>
@@ -75,14 +83,6 @@
     <author>MAN</author>
     <guid>http://www.manshushu.top/software_engineering2/</guid>
     <description><![CDATA[软件的需求管理 软件需求的定义 需求是对外可见的系统特征 需求管理有三项任务： 学习 ——需求获取 剪枝 ——需求优选 文档化 ——撰写需求规格说明书 需求的内]]></description>
-</item>
-<item>
-    <title>关于Gitpage的自定义域名</title>
-    <link>http://www.manshushu.top/custom_domain/</link>
-    <pubDate>Mon, 26 Sep 2022 11:04:49 &#43;0800</pubDate>
-    <author>MAN</author>
-    <guid>http://www.manshushu.top/custom_domain/</guid>
-    <description><![CDATA[关于我的博客技术栈 使用的是markdown写作，hugo进行静态页面生成，push到blog仓库进行博客源码管理，另有一个仓库负责最后的静态]]></description>
 </item>
 </channel>
 </rss>
