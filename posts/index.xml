@@ -21,6 +21,14 @@
     <description><![CDATA[面临的问题 在安卓端，通过clash可以畅通无阻解锁所有剧 但是通过路由器上的clash只能实现自制剧的观看，但好的是没有提示使用代理云云 一些探]]></description>
 </item>
 <item>
+    <title>软件工程笔记6</title>
+    <link>http://www.manshushu.top/software_engineering6/</link>
+    <pubDate>Sun, 16 Oct 2022 15:02:10 &#43;0800</pubDate>
+    <author>MAN</author>
+    <guid>http://www.manshushu.top/software_engineering6/</guid>
+    <description><![CDATA[软件体系结构 软件体系结构的目标 软件体系结构的发展 风格、模式和框架 设计原则 抽象 封装 模块化 系统分解原则 层次化 复用 常见的体系结构风格 主程序——子程]]></description>
+</item>
+<item>
     <title>30天教师资格证第6天</title>
     <link>http://www.manshushu.top/teacher6/</link>
     <pubDate>Wed, 05 Oct 2022 10:10:40 &#43;0800</pubDate>
@@ -75,14 +83,6 @@
     <author>MAN</author>
     <guid>http://www.manshushu.top/teacher1/</guid>
     <description><![CDATA[记少来记多，记多来记少 教育知识与能力 教育基础知识 教育的产生与发展 教育概述： 教育的含义 教育一词由来：《孟子尽心上》 教育的概念： 广义：家庭教育，]]></description>
-</item>
-<item>
-    <title>软件工程笔记2</title>
-    <link>http://www.manshushu.top/software_engineering2/</link>
-    <pubDate>Tue, 27 Sep 2022 15:02:10 &#43;0800</pubDate>
-    <author>MAN</author>
-    <guid>http://www.manshushu.top/software_engineering2/</guid>
-    <description><![CDATA[软件的需求管理 软件需求的定义 需求是对外可见的系统特征 需求管理有三项任务： 学习 ——需求获取 剪枝 ——需求优选 文档化 ——撰写需求规格说明书 需求的内]]></description>
 </item>
 </channel>
 </rss>

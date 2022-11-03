@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>软件工程笔记5 - Man&#39;s blog</title><meta name="Description" content="软件工程笔记5"><meta property="og:title" content="软件工程笔记5" />
+<meta property="og:description" content="软件工程笔记5" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.manshushu.top/software_engineering5/" /><meta property="og:image" content="http://www.manshushu.top/logo.png"/><meta property="article:section" content="posts" />
+
+<meta property="og:site_name" content="Man&#39;s blog" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://www.manshushu.top/logo.png"/>
+
+<meta name="twitter:title" content="软件工程笔记5"/>
+<meta name="twitter:description" content="软件工程笔记5"/>
+<meta name="application-name" content="LoveIt">
+<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://www.manshushu.top/software_engineering5/" /><link rel="next" href="http://www.manshushu.top/software_engineering4/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "软件工程笔记5",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/www.manshushu.top\/software_engineering5\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "http:\/\/www.manshushu.top\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "软件工程","wordcount":  1236 ,
+        "url": "http:\/\/www.manshushu.top\/software_engineering5\/","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "http:\/\/www.manshushu.top\/images\/avatar.png",
+                    "width":  512 ,
+                    "height":  512 
+                }},"author": {
+                "@type": "Person",
+                "name": "MAN"
+            },"description": "软件工程笔记5"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Man&#39;s blog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>MAN</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/categories/documentation/"> 文档 </a><a class="menu-item" href="/about/"> 关于 </a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/software_engineering5/" selected>简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Man&#39;s blog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>MAN</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/categories/documentation/" title="">文档</a><a class="menu-item" href="/about/" title="">关于</a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/software_engineering5/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">软件工程笔记5</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>MAN</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>课程学习</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="0001-01-01">0001-01-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1236 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#git-init-命令">git init 命令</a></li>
+    <li><a href="#git-clone">git clone</a></li>
+    <li><a href="#git-add">git add</a></li>
+    <li><a href="#git-commit">git commit</a></li>
+    <li><a href="#git-reset">git reset</a></li>
+    <li><a href="#git-push">git push</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="软件配置管理">软件配置管理</h1>
+<p>软件配置管理是一种标识、组织和控制修改的技术，它作用于整个软件生命周期，其目的是使错误达到最小并最有效地提高生产率。</p>
+<h1 id="软件配置项">软件配置项</h1>
+<p>软件配置项（Software Configuration Item，简称SCI）是为了配置管理而作为单独实体处理的一个工作产品或软件。</p>
+<h1 id="版本">版本</h1>
+<p>版本是在明确定义的时间点上某个配置项的状态；版本管理是对系统不同的版本进行标识和跟踪的过程，从而保证软件技术状态的一致性。</p>
+<h1 id="基线">基线</h1>
+<p>基线（Baseline）是软件配置项的一个稳定版本，它是进一步开发的基础， 只有通过正式的变更控制过程才能改变。</p>
+<h1 id="版本控制问题">版本控制问题</h1>
+<p>我们小组学习使用git来进行版本管理。</p>
+<h1 id="软件配置管理工具git">软件配置管理工具git</h1>
+<p>Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。</p>
+<p>Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。</p>
+<p>Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。</p>
+<h1 id="git-工作流程">Git 工作流程</h1>
+<p>一般工作流程如下：</p>
+<ol>
+<li>克隆 Git 资源作为工作目录。</li>
+<li>在克隆的资源上添加或修改文件。</li>
+<li>如果其他人修改了，你可以更新资源。</li>
+<li>在提交前查看修改。</li>
+<li>提交修改。</li>
+<li>在修改完成后，如果发现错误，可以撤回提交并再次修改并提交。</li>
+</ol>
+<!-- 下图展示了 Git 的工作流程： -->
+<h1 id="git-基本操作">Git 基本操作</h1>
+<p>Git 的工作就是创建和保存你项目的快照及与之后的快照进行对比。</p>
+<p>Git 常用的是以下 6 个命令：git clone、git push、git add 、git commit、git checkout、git pull</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://www.runoob.com/wp-content/uploads/2015/02/git-command.jpg"
+        data-srcset="https://www.runoob.com/wp-content/uploads/2015/02/git-command.jpg, https://www.runoob.com/wp-content/uploads/2015/02/git-command.jpg 1.5x, https://www.runoob.com/wp-content/uploads/2015/02/git-command.jpg 2x"
+        data-sizes="auto"
+        alt="https://www.runoob.com/wp-content/uploads/2015/02/git-command.jpg"
+        title="https://www.runoob.com/wp-content/uploads/2015/02/git-command.jpg" /></p>
+<h2 id="git-init-命令">git init 命令</h2>
+<p>git init 命令用于在目录中创建新的 Git 仓库。</p>
+<p>在目录中执行 git init 就可以创建一个 Git 仓库了。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ mkdir runoob
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$ cd runoob/
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$ git init
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="git-clone">git clone</h2>
+<p>git clone 拷贝一个 Git 仓库到本地，让自己能够查看该项目，或者进行修改。</p>
+<p>拷贝项目命令格式如下：</p>
+<p><code>git clone [url]</code></p>
+<h2 id="git-add">git add</h2>
+<p>git add 命令可将该文件添加到暂存区。</p>
+<p>添加一个或多个文件到暂存区：</p>
+<p><code>git add [file1] [file2]</code>
+添加指定目录到暂存区，包括子目录：</p>
+<p><code>git add [dir]</code>
+添加当前目录下的所有文件到暂存区：</p>
+<p><code>git add .</code></p>
+<h2 id="git-commit">git commit</h2>
+<p>git commit 命令将暂存区内容添加到本地仓库中。</p>
+<p>提交暂存区到本地仓库中:</p>
+<p><code>git commit -m [message]</code>
+[message] 可以是一些备注信息。</p>
+<p>提交暂存区的指定文件到仓库区：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ git commit [file1] [file2] ... -m [message]
+</span></span><span class="line"><span class="cl">-a 参数设置修改文件后不需要执行 git add 命令，直接来提交
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$ git commit -a
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>设置提交代码时的用户信息
+开始前我们需要先设置提交的用户信息，包括用户名和邮箱：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ git config --global user.name &#39;runoob&#39;
+</span></span><span class="line"><span class="cl">$ git config --global user.email test@runoob.com
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如果去掉 &ndash;global 参数只对当前仓库有效。</p>
+<p>提交修改
+接下来我们就可以对 hello.php 的所有改动从暂存区内容添加到本地仓库中。</p>
+<p>以下实例，我们使用 -m 选项以在命令行中提供提交注释。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ git add hello.php
+</span></span><span class="line"><span class="cl">$ git status -s
+</span></span><span class="line"><span class="cl">A  README
+</span></span><span class="line"><span class="cl">A  hello.php
+</span></span><span class="line"><span class="cl">$ git commit -m &#39;第一次版本提交&#39;
+</span></span><span class="line"><span class="cl">[master (root-commit) d32cf1f] 第一次版本提交
+</span></span><span class="line"><span class="cl"> 2 files changed, 4 insertions(+)
+</span></span><span class="line"><span class="cl"> create mode 100644 README
+</span></span><span class="line"><span class="cl"> create mode 100644 hello.php
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="git-reset">git reset</h2>
+<p>git reset 命令用于回退版本，可以指定退回某一次提交的版本。</p>
+<p>git reset 命令语法格式如下：</p>
+<p><code>git reset [--soft | --mixed | --hard] [HEAD]</code></p>
+<h2 id="git-push">git push</h2>
+<p>git push 命令用于从将本地的分支版本上传到远程并合并。</p>
+<p>命令格式如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git push &lt;远程主机名&gt; &lt;本地分支名&gt;:&lt;远程分支名&gt;如果本地分支名与远程分支名相同，则可以省略冒号：
+</span></span><span class="line"><span class="cl">git push &lt;远程主机名&gt; &lt;本地分支名&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 0001-01-01</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/software_engineering5/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="http://www.manshushu.top/software_engineering5/" data-title="软件工程笔记5" data-hashtags="软件工程"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="http://www.manshushu.top/software_engineering5/" data-hashtag="软件工程"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="http://www.manshushu.top/software_engineering5/" data-title="软件工程笔记5"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="http://www.manshushu.top/software_engineering5/" data-title="软件工程笔记5"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://www.manshushu.top/software_engineering5/" data-title="软件工程笔记5" data-ralateuid="xxxx"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/">软件工程</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+            <a href="/software_engineering4/" class="next" rel="next" title="软件工程笔记4">软件工程笔记4<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.102.3">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">MAN</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
