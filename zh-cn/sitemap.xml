@@ -70,6 +70,8 @@
                     href="http://www.manshushu.top/about/"
                     /></url><url>
             <loc>http://www.manshushu.top/tags/installation/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.manshushu.top/tags/%E7%94%B5%E8%A7%86%E5%89%A7/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.manshushu.top/%E9%BE%99%E5%B9%B4%E6%A1%A3%E6%A1%88/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.manshushu.top/tags/content/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.manshushu.top/tags/configuration/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.manshushu.top/software_engineering4/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -82,4 +84,5 @@
                     rel="alternate"
                     hreflang="zh-cn"
                     href="http://www.manshushu.top/categories/documentation/"
-                    /></url></urlset>
+                    /></url><url>
+            <loc>http://www.manshushu.top/categories/%E5%AD%A6%E4%B9%A0/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
