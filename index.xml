@@ -4,22 +4,30 @@
         <link>http://www.manshushu.top/</link>
         <description>By hugo</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>m081550370@163.com (MAN)</managingEditor>
-            <webMaster>m081550370@163.com (MAN)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 05 Nov 2022 10:10:40 &#43;0800</lastBuildDate>
+            <webMaster>m081550370@163.com (MAN)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 26 Nov 2022 10:02:10 &#43;0800</lastBuildDate>
             <atom:link href="http://www.manshushu.top/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>关于安全感</title>
+    <link>http://www.manshushu.top/sense-of-security/</link>
+    <pubDate>Sat, 26 Nov 2022 10:02:10 &#43;0800</pubDate>
+    <author>MAN</author>
+    <guid>http://www.manshushu.top/sense-of-security/</guid>
+    <description><![CDATA[关于安全感的定义 安全感是一种情感，是一种不存在的事物，是内心营造出的假象，是帮助我们达到情感愉悦的一种内在的保护措施，同时也是我们在日常生活]]></description>
+</item>
+<item>
     <title>一次难忘的经历</title>
-    <link>http://www.manshushu.top/%E8%A2%AB%E9%AA%97%E7%BB%8F%E5%8E%86/</link>
+    <link>http://www.manshushu.top/cheated-experience/</link>
     <pubDate>Sat, 05 Nov 2022 10:10:40 &#43;0800</pubDate>
     <author>MAN</author>
-    <guid>http://www.manshushu.top/%E8%A2%AB%E9%AA%97%E7%BB%8F%E5%8E%86/</guid>
+    <guid>http://www.manshushu.top/cheated-experience/</guid>
     <description><![CDATA[整个流程 15天前，大概是在10月20号的样子，我萌发了想要购买一个游戏账号的想法，所以我就准备在交易猫上进行交易。因为看重了交易猫的背景，作]]></description>
 </item>
 <item>
     <title>教资结束后的一些总结</title>
-    <link>http://www.manshushu.top/%E8%BF%91%E6%9C%9F%E6%80%BB%E7%BB%93/</link>
+    <link>http://www.manshushu.top/some_expression/</link>
     <pubDate>Mon, 31 Oct 2022 08:27:40 &#43;0800</pubDate>
     <author>MAN</author>
-    <guid>http://www.manshushu.top/%E8%BF%91%E6%9C%9F%E6%80%BB%E7%BB%93/</guid>
+    <guid>http://www.manshushu.top/some_expression/</guid>
     <description><![CDATA[这些天我干了什么 这些天我一直在准备教师资格证笔试的复习，其中第二门下的功夫最大，复习了好几遍，最后又对重点进行了重复。 对于第一门确实只花了一]]></description>
 </item>
 <item>
@@ -77,14 +85,6 @@
     <author>MAN</author>
     <guid>http://www.manshushu.top/teacher2/</guid>
     <description><![CDATA[中学课程 概述 课程概念 课程一词的由来&ndash;斯宾塞的《什么知识最有价值》 概念 广义&ndash;教学内容总和以及进程安排 狭义&ndash;]]></description>
-</item>
-<item>
-    <title>软件工程笔记3</title>
-    <link>http://www.manshushu.top/software_engineering3/</link>
-    <pubDate>Sat, 01 Oct 2022 15:02:10 &#43;0800</pubDate>
-    <author>MAN</author>
-    <guid>http://www.manshushu.top/software_engineering3/</guid>
-    <description><![CDATA[用例建模概念 什么是用例 定义系统的一系列行为 通过此可为参与者提供有价值且可观测的结果。 定义一个参与者要用到的系统功能 描述系统为实现参与者价值所]]></description>
 </item>
 </channel>
 </rss>
