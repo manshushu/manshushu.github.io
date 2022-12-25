@@ -4,13 +4,21 @@
         <link>http://www.manshushu.top/posts/</link>
         <description>所有文章 | Man&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>m081550370@163.com (MAN)</managingEditor>
-            <webMaster>m081550370@163.com (MAN)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 06 Dec 2022 15:02:10 &#43;0800</lastBuildDate><atom:link href="http://www.manshushu.top/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>m081550370@163.com (MAN)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 10 Dec 2022 15:02:10 &#43;0800</lastBuildDate><atom:link href="http://www.manshushu.top/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>软件工程笔记11</title>
+    <link>http://www.manshushu.top/software_engineering11/</link>
+    <pubDate>Sat, 10 Dec 2022 15:02:10 &#43;0800</pubDate>
+    <author>MAN</author>
+    <guid>http://www.manshushu.top/software_engineering11/</guid>
+    <description><![CDATA[白盒测试]]></description>
+</item>
+<item>
     <title>要带回家的东西</title>
     <link>http://www.manshushu.top/%E8%A6%81%E5%B8%A6%E5%9B%9E%E5%AE%B6%E7%9A%84%E4%B8%9C%E8%A5%BF/</link>
     <pubDate>Tue, 06 Dec 2022 15:02:10 &#43;0800</pubDate>
     <author>MAN</author>
     <guid>http://www.manshushu.top/%E8%A6%81%E5%B8%A6%E5%9B%9E%E5%AE%B6%E7%9A%84%E4%B8%9C%E8%A5%BF/</guid>
-    <description><![CDATA[必带 床上的 衣服 电脑 鼠标 手柄 充电器 不必要带 书 床垫 被子 用什么带 提包带衣服和部分床上用品 书包带电脑和书 床上用品包带床上用品 除了带东西还要注意什么 放]]></description>
+    <description><![CDATA[必带 床上的 衣服 电脑 鼠标 手柄 充电器 鞋子！！！ 不必要带 书 床垫 被子 用什么带 提包带衣服和部分床上用品 书包带电脑和书 床上用品包带床上用品 除了带东西还要]]></description>
 </item>
 <item>
     <title>关于贪心和想做的又快又好</title>
@@ -29,12 +37,36 @@
     <description><![CDATA[核心目的，最关键的目的 想把这个做完，做好，并且在展示的时候能够装个大逼。其中最主要的还是装个大逼。。。 其次呢，我是想创造一些东西，能够真正的]]></description>
 </item>
 <item>
+    <title>软件工程笔记9</title>
+    <link>http://www.manshushu.top/software_engineering9/</link>
+    <pubDate>Wed, 30 Nov 2022 15:02:10 &#43;0800</pubDate>
+    <author>MAN</author>
+    <guid>http://www.manshushu.top/software_engineering9/</guid>
+    <description><![CDATA[详细设计及结构化的程序]]></description>
+</item>
+<item>
     <title>关于安全感</title>
     <link>http://www.manshushu.top/sense-of-security/</link>
     <pubDate>Sat, 26 Nov 2022 10:02:10 &#43;0800</pubDate>
     <author>MAN</author>
     <guid>http://www.manshushu.top/sense-of-security/</guid>
     <description><![CDATA[关于安全感的定义 安全感是一种情感，是一种不存在的事物，是内心营造出的假象，是帮助我们达到情感愉悦的一种内在的保护措施，同时也是我们在日常生活]]></description>
+</item>
+<item>
+    <title>软件工程笔记8</title>
+    <link>http://www.manshushu.top/software_engineering8/</link>
+    <pubDate>Sun, 20 Nov 2022 15:02:10 &#43;0800</pubDate>
+    <author>MAN</author>
+    <guid>http://www.manshushu.top/software_engineering8/</guid>
+    <description><![CDATA[面向对象分析 面向对象分析的起源 面向对象分析方法 uml 面向对象分析的局限性]]></description>
+</item>
+<item>
+    <title>软件工程笔记7</title>
+    <link>http://www.manshushu.top/software_engineering7/</link>
+    <pubDate>Wed, 16 Nov 2022 15:02:10 &#43;0800</pubDate>
+    <author>MAN</author>
+    <guid>http://www.manshushu.top/software_engineering7/</guid>
+    <description><![CDATA[编程过程与规范 代码静态检查 代码静态分析工具 代码性能分析 性能测试工具]]></description>
 </item>
 <item>
     <title>龙年档案</title>
@@ -51,38 +83,6 @@
     <author>MAN</author>
     <guid>http://www.manshushu.top/cheated-experience/</guid>
     <description><![CDATA[整个流程 15天前，大概是在10月20号的样子，我萌发了想要购买一个游戏账号的想法，所以我就准备在交易猫上进行交易。因为看重了交易猫的背景，作]]></description>
-</item>
-<item>
-    <title>教资结束后的一些总结</title>
-    <link>http://www.manshushu.top/some_expression/</link>
-    <pubDate>Mon, 31 Oct 2022 08:27:40 &#43;0800</pubDate>
-    <author>MAN</author>
-    <guid>http://www.manshushu.top/some_expression/</guid>
-    <description><![CDATA[这些天我干了什么 这些天我一直在准备教师资格证笔试的复习，其中第二门下的功夫最大，复习了好几遍，最后又对重点进行了重复。 对于第一门确实只花了一]]></description>
-</item>
-<item>
-    <title>关于Netflix的一些事</title>
-    <link>http://www.manshushu.top/about_netflix/</link>
-    <pubDate>Wed, 19 Oct 2022 15:57:40 &#43;0800</pubDate>
-    <author>MAN</author>
-    <guid>http://www.manshushu.top/about_netflix/</guid>
-    <description><![CDATA[面临的问题 在安卓端，通过clash可以畅通无阻解锁所有剧 但是通过路由器上的clash只能实现自制剧的观看，但好的是没有提示使用代理云云 一些探]]></description>
-</item>
-<item>
-    <title>软件工程笔记6</title>
-    <link>http://www.manshushu.top/software_engineering6/</link>
-    <pubDate>Sun, 16 Oct 2022 15:02:10 &#43;0800</pubDate>
-    <author>MAN</author>
-    <guid>http://www.manshushu.top/software_engineering6/</guid>
-    <description><![CDATA[软件体系结构 软件体系结构的目标 软件体系结构的发展 风格、模式和框架 设计原则 抽象 封装 模块化 系统分解原则 层次化 复用 常见的体系结构风格 主程序——子程]]></description>
-</item>
-<item>
-    <title>软件工程笔记5</title>
-    <link>http://www.manshushu.top/software_engineering5/</link>
-    <pubDate>Sun, 09 Oct 2022 15:02:10 &#43;0800</pubDate>
-    <author>MAN</author>
-    <guid>http://www.manshushu.top/software_engineering5/</guid>
-    <description><![CDATA[软件配置管理 软件配置管理是一种标识、组织和控制修改的技术，它作用于整个软件生命周期，其目的是使错误达到最小并最有效地提高生产率。 软件配置项 软]]></description>
 </item>
 </channel>
 </rss>
