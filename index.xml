@@ -4,15 +4,31 @@
         <link>http://www.manshushu.top/</link>
         <description>By hugo</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>m081550370@163.com (MAN)</managingEditor>
-            <webMaster>m081550370@163.com (MAN)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 31 Dec 2022 17:38:13 &#43;0800</lastBuildDate>
+            <webMaster>m081550370@163.com (MAN)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 16 Apr 2023 19:25:06 &#43;0800</lastBuildDate>
             <atom:link href="http://www.manshushu.top/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title></title>
+    <link>http://www.manshushu.top/2023-04-16/</link>
+    <pubDate>Sun, 16 Apr 2023 19:25:06 &#43;0800</pubDate>
+    <author>MAN</author>
+    <guid>http://www.manshushu.top/2023-04-16/</guid>
+    <description><![CDATA[Genie&rsquo;s Weekly Reflection As I sit down to write this week&rsquo;s reflection, I find myself grappling with a lot of uncertainty and confusion. It seems like the more I learn about the world of coding and software development, the more daunting it all becomes. Everywhere I turn, I&rsquo;m reminded of just how competitive this field is, and how difficult it might be to secure a good job after graduation. Feeling]]></description>
+</item>
+<item>
     <title>教资面试</title>
     <link>http://www.manshushu.top/teacher_interview/</link>
     <pubDate>Sat, 31 Dec 2022 17:38:13 &#43;0800</pubDate>
     <author>MAN</author>
     <guid>http://www.manshushu.top/teacher_interview/</guid>
     <description><![CDATA[教资面试的流程 结构化面试题 也就是套路题，包括以下几个方面 教师的价值观，教学目标 有关矛盾的题，包括与同学与家长与同事，还有处理同学之间的矛盾 组]]></description>
+</item>
+<item>
+    <title>一段总结</title>
+    <link>http://www.manshushu.top/2023.03.12/</link>
+    <pubDate>Sat, 31 Dec 2022 17:38:13 &#43;0800</pubDate>
+    <author>MAN</author>
+    <guid>http://www.manshushu.top/2023.03.12/</guid>
+    <description><![CDATA[长达三个月的总结 因为写个blog过程太繁琐了，所以导致我写作的热情不高。首先是新建个文件夹，再新建个文件，再把文件里的头参数写好，改头参数，]]></description>
 </item>
 <item>
     <title>关于自尊</title>
@@ -69,22 +85,6 @@
     <author>MAN</author>
     <guid>http://www.manshushu.top/about_little_pro/</guid>
     <description><![CDATA[核心目的，最关键的目的 想把这个做完，做好，并且在展示的时候能够装个大逼。其中最主要的还是装个大逼。。。 其次呢，我是想创造一些东西，能够真正的]]></description>
-</item>
-<item>
-    <title>软件工程笔记9</title>
-    <link>http://www.manshushu.top/software_engineering9/</link>
-    <pubDate>Wed, 30 Nov 2022 15:02:10 &#43;0800</pubDate>
-    <author>MAN</author>
-    <guid>http://www.manshushu.top/software_engineering9/</guid>
-    <description><![CDATA[详细设计及结构化的程序]]></description>
-</item>
-<item>
-    <title>关于安全感</title>
-    <link>http://www.manshushu.top/sense-of-security/</link>
-    <pubDate>Sat, 26 Nov 2022 10:02:10 &#43;0800</pubDate>
-    <author>MAN</author>
-    <guid>http://www.manshushu.top/sense-of-security/</guid>
-    <description><![CDATA[关于安全感的定义 安全感是一种情感，是一种不存在的事物，是内心营造出的假象，是帮助我们达到情感愉悦的一种内在的保护措施，同时也是我们在日常生活]]></description>
 </item>
 </channel>
 </rss>
