@@ -2,10 +2,9 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://www.manshushu.top/tags/ai/</loc><lastmod>2023-04-16T19:25:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.manshushu.top/categories/ai/</loc><lastmod>2023-04-16T19:25:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.manshushu.top/2023-04-16/</loc><lastmod>2023-04-16T19:25:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.manshushu.top/categories/</loc><lastmod>2023-04-16T19:25:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://www.manshushu.top/2023-07-21/</loc><lastmod>2023-07-21T21:29:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.manshushu.top/tags/2023%E5%B9%B47%E6%9C%8821%E6%97%A5%E7%9A%84%E6%84%9F%E6%82%9F/</loc><lastmod>2023-07-21T21:29:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.manshushu.top/categories/</loc><lastmod>2023-07-21T21:29:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://www.manshushu.top/en/categories/"
@@ -14,7 +13,7 @@
                     hreflang="zh-cn"
                     href="http://www.manshushu.top/categories/"
                     /></url><url>
-            <loc>http://www.manshushu.top/</loc><lastmod>2023-04-16T19:25:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://www.manshushu.top/</loc><lastmod>2023-07-21T21:29:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://www.manshushu.top/en/"
@@ -23,8 +22,8 @@
                     hreflang="zh-cn"
                     href="http://www.manshushu.top/"
                     /></url><url>
-            <loc>http://www.manshushu.top/posts/</loc><lastmod>2023-04-16T19:25:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.manshushu.top/tags/</loc><lastmod>2023-04-16T19:25:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://www.manshushu.top/posts/</loc><lastmod>2023-07-21T21:29:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.manshushu.top/tags/</loc><lastmod>2023-07-21T21:29:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://www.manshushu.top/en/tags/"
@@ -33,6 +32,10 @@
                     hreflang="zh-cn"
                     href="http://www.manshushu.top/tags/"
                     /></url><url>
+            <loc>http://www.manshushu.top/categories/%E6%84%9F%E6%82%9F/</loc><lastmod>2023-07-21T21:29:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.manshushu.top/tags/ai/</loc><lastmod>2023-04-16T19:25:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.manshushu.top/categories/ai/</loc><lastmod>2023-04-16T19:25:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.manshushu.top/2023-04-16/</loc><lastmod>2023-04-16T19:25:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.manshushu.top/teacher_interview/</loc><lastmod>2022-12-31T17:38:13&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.manshushu.top/categories/%E6%97%A5%E8%AE%B0/</loc><lastmod>2022-12-31T17:38:13&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.manshushu.top/tags/%E5%AD%A6%E4%B9%A0/</loc><lastmod>2022-12-31T17:38:13&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -51,7 +54,6 @@
             <loc>http://www.manshushu.top/%E8%A6%81%E5%B8%A6%E5%9B%9E%E5%AE%B6%E7%9A%84%E4%B8%9C%E8%A5%BF/</loc><lastmod>2022-12-06T15:02:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.manshushu.top/tags/%E6%9D%82/</loc><lastmod>2022-12-06T15:02:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.manshushu.top/tags/%E6%84%9F%E6%82%9F/</loc><lastmod>2022-12-04T15:02:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.manshushu.top/categories/%E6%84%9F%E6%82%9F/</loc><lastmod>2022-12-04T15:02:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.manshushu.top/2022.12.04/</loc><lastmod>2022-12-04T15:02:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.manshushu.top/about_little_pro/</loc><lastmod>2022-12-02T15:02:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.manshushu.top/software_engineering9/</loc><lastmod>2022-11-30T15:02:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
